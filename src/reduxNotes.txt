@@ -1,0 +1,8 @@
+redux - is a global store for usage of differnet components rather than doing prop drilling.
+
+reducers - controllers to modify the values (just actions)
+useSelector - this hook directly talks to the redux store
+useDispatch - calls the specific reducer for modification
+
+first - import configureStore into the store.js file
+slice is where it all starts
